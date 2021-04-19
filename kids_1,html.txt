@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Averia Gruesa Libre' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+<style>
+body{
+	margin:0%;
+}
+#menu{
+	margin-top:-9.5%;
+}
+#header{
+	height:15%;
+	width:100%;
+	background-color:#AFEEEE;
+}
+.list{
+	margin-left:15%;
+	margin-top:-3%;
+    list-style-type: none;
+    overflow: hidden;
+}
+.list li a{
+	text-decoration:none;
+	font-size:130%;
+	color: white;
+	float:left;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#home:hover{
+	background-color:black;
+}
+#ABC:hover{
+	background-color:black;
+}
+#Color:hover{
+	background-color:black;
+}
+#Number:hover{
+	background-color:black;
+}
+#Flower:hover{
+	background-color:black;
+}
+#Poems:hover{
+	background-color:black;
+}
+#Comic:hover{
+	background-color:black;
+}
+hr{
+	height:2%;
+	width:90%;
+	align:center;
+	margin-top:-1%;
+}
+#home{
+	background-color:#FF00FF;
+	border-radius:12px 12px 0 0;
+}
+#ABC{
+	background-color:#2E8B57;
+	border-radius:15px 15px 0 0;
+}
+#Color{
+	background-color:orange;
+	border-radius:15px 15px 0 0;
+}
+#Number{
+	background-color:#008B8B;
+	border-radius:15px 15px 0 0;
+}
+#Flower{
+	background-color:red;
+	border-radius:15px 15px 0 0;
+}
+#Poems{
+	background-color:#87CEFA;
+	border-radius:15px 15px 0 0;
+}
+#Comic{
+	background-color:#800080;
+	border-radius:15px 15px 0 0;
+}
+#lefemenu{
+	background-color:white;
+	height:340px;;
+	width:251px;
+	margin:30px 0px 0px 18px;
+	border-radius:25px 0px 25px 0px;
+}
+#lefemenu a{
+	text-decoration:none;
+	font-family: 'Averia Gruesa Libre';
+	color:black;
+	background-color:#9e3ccf;
+	border:none;
+	line-height: 200%;
+	text-align:center;
+	font-size:18px;
+	margin-left:0px;
+	margin-top:3px;
+	display: inline-block;
+	border-bottom:2px solid white;
+}
+#lefemenu a:hover{
+	transform: scale(1); 
+	border:none;
+	color:white;
+	background-color:#40a1ff;
+	padding:0px;
+}
+#rightmenu{
+	background-color:white;
+	height:300px;;
+	width:218px;
+	margin:-920px 0px 0px 1050px;
+	border-radius:25px 25px 25px 25px;
+}
+#rightmenu a{
+	text-decoration:none;
+	font-family: 'Averia Gruesa Libre';
+	color:black;
+	background-color:#ffa852;
+	border:none;
+	line-height: 200%;
+	text-align:center;
+	font-size:18px;
+	margin-left:0px;
+	margin-top:3px;
+	display: inline-block;
+	border-bottom:2px solid white;
+}
+#rightmenu a:hover{
+	transform: scale(1); 
+	border:none;
+	color:white;
+	background-color:MediumSeaGreen;
+	padding:0px;
+}
+section{
+	margin:-370px 0px 0px 400px; 
+}
+pre{
+	font-family:'Didact Gothic';
+	font-size:22px;
+}
+footer{
+	height:150px;
+	width:100%;
+	margin-top:700px;
+	background-color:skyblue;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<img style="margin-left:40%;" src="story.png" height="5.9%" width="19%">
+</div>
+<div id="menu">
+<img src="images.png" height="8%" width="15%">
+<ul class="list">
+<li><a id="home" href="homepage.html">Home</a><li>
+<li><a id="ABC" href="ABC.html">ABC Characters</a><li>
+<li><a id="Color" href="Colors.html">Colors</a></li>
+<li><a id="Number" href="Number.html">Numbers</a><li>
+<li><a id="Flower" href="Flower.html">Flowers</a><li>
+<li><a id="Poems" href="Poems.html">Poems</a><li>
+<li><a id="Comic" href="YourOwnStory.html">Your Comic Story</a><li>
+</ul>
+</div>
+<hr color="red">
+<div id="lefemenu">
+<a href="#" style="background-color:MediumSeaGreen;border-radius:25px 0px 25px 0px;padding:0px 55px;font-size:35px;border-bottom:4px solid white;"><b>Adventures</b></a><br>
+<a href="Poems.html" style="background-color:#ff2626;color:white;padding:0px 70.9px;border-radius:25px 5px 25px 5px;"><b>Family Poems</b></a><br>
+<a href="#" style="padding:0px 79.9px;border-radius:25px 5px 25px 5px;"><b>Kids Poems</b></a><br>
+<a href="#" style="padding:0px 70px;border-radius:25px 5px 25px 5px;"><b>Nature Poems</b></a><br>
+<a href="#" style="padding:0px 70.3px;border-radius:25px 5px 25px 5px;"><b>Lesson Poems</b></a><br>
+<a href="#" style="padding:0px 69.3px;border-radius:25px 5px 25px 5px;"><b>Animal Poems</b></a><br>
+<a href="#" style="padding:0px 71px;border-radius:25px 5px 25px 5px;"><b>School Poems</b></a><br>
+<a href="#" style="padding:0px 63.5px;border-radius:25px 5px 25px 5px;"><b>Children Poems</b></a><br>
+<a href="#" style="border-radius:25px 5px 25px 5px;padding:0px 72.8px;"><b>Funny Poems</b></a><br>
+</div>
+<section>
+<h1 style="font-family:'Candal';font-size:35px;">From Dad</h1>
+<p style="font-family:'Carter One';font-size:17px;margin:-30px 0px 0px 40px;"><i>© Richard Burge</i></p>
+<pre>
+I never thought I could love someone
+The way that I love you.
+I'm completely fascinated
+With everything you do.
+</pre>
+<pre style="margin-left:70px;">
+I don't regret a moment with you,
+Whether good or bad.
+You have made my life complete,
+The best life a guy could have.
+</pre>
+<pre>
+You might not ever notice
+Everything I do,
+But everything I'm doing
+Is for no one else but you.
+</pre>
+<pre style="margin-left:70px;">
+My goal in life is simple.
+It's to be your father first.
+To protect, defend, and love you
+When you are at your worst.
+</pre>
+<pre>
+I know when you grow older
+You won't want me anymore.
+If you ever need me, though,
+I'll be waiting at the door.
+</pre>
+<pre style="margin-left:70px;">
+Promise you will come to me
+With any problem that you have.
+I'll always be right here for you.
+I love you both!  Love, Dad
+</pre>
+</section>
+<div id="rightmenu">
+<a href="#" style="background-color:#ff9eff;border-radius:0px 25px 0px 25px;padding:0px 55px;font-size:35px;border-bottom:4px solid white;"><b>Chapters</b></a><br>
+<a href="Poems.html" style="color:white;background-color:red;border-radius:5px 25px 5px 25px;padding:0px 70px;"><b>Chapter 1</b></a><br>
+<a href="poems1_2.html" style="color:white;border-radius:5px 25px 5px 25px;padding:0px 70px;"><b>Chapter 2</b></a><br>
+<a href="poems1_3.html" style="color:white;border-radius:5px 25px 5px 25px;padding:0px 70px;"><b>Chapter 3</b></a><br>
+<a href="poems1_4.html" style="color:white;border-radius:5px 25px 5px 25px;padding:0px 70px;"><b>Chapter 4</b></a><br>
+<a href="poems1_5.html" style="color:white;border-radius:5px 25px 5px 25px;padding:0px 70px;"><b>Chapter 5</b></a><br>
+<a href="poems1_6.html" style="color:white;border-radius:5px 25px 5px 25px;padding:0px 70px;"><b>Chapter 6</b></a><br>
+
+
+</div>
+<footer>
+</footer>
+</body>
+</html>

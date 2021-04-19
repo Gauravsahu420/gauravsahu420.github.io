@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Angkor' rel='stylesheet'>
+<style>
+#numbers{
+	border:2px solid black;
+	height:100px;
+	width:100px;
+	border-radius:12px;
+	float:left;
+	cursor:pointer;
+	margin-left:10px;
+}
+h1{
+    font-family: 'Angkor';font-size: 80px;
+}
+#numbers:hover{
+	transform: scale(1.1); 
+	border:none;
+	background-color:#33ff33;
+}
+</style>
+</head>
+<body>
+<h2 style="text-align:center;font-size:45px;"><strong><u>Numbers</u></strong></h2>
+<div id="container">
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">1</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">1</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>One</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">2</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">2</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Two</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">3</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">3</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Three</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">4</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">4</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Four</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">5</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">5</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Five</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">6</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">6</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Six</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">7</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">7</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Seven</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">8</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">8</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Eight</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">9</h2>
+<h1 style="margin-left:30px;margin-top:-55px;">9</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Nine</strong></p>
+</div>
+<div id="numbers">
+<h2 style="margin-left:8px;margin-top:0px;">10</h2>
+<h1 style="margin-left:20px;margin-top:-55px;">10</h1>
+<p style="text-align:center;font-size:20px;margin-top:-70px;"><strong>Ten</strong></p>
+</div>
+</div>
+</body>
+</html>

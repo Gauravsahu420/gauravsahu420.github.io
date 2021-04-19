@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Copse' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="look.css">
+<style>
+.big{
+	position:absolute;
+	top:50%;
+}
+.container {
+  position: relative;
+  width:23%;
+  margin-top:2%;
+  left:-0.9%;
+  float:left;
+  margin-left:2%;
+}
+
+.imagetab {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius:12px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border:radius:50px;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border:radius:50px;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  right: 0;
+  transform: scale(1);
+}
+.container:hover .overlay2 {
+  width: 100%;
+  left: 0;
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  text-decoration:underline;
+  font-family:'Bubblegum Sans';
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+#story{
+	text-align: justify;
+	font-family: 'Chivo';
+	font-size:17px;
+	padding:20px 10px 10px 10px;
+}
+figcaption{
+	font-family: 'Copse';
+	font-size: 22px;
+	text-align:center;
+	padding:3px;
+}
+footer{
+	top:250%;
+}
+</style>
+</head>
+<body>
+<header>
+</header>
+<a href="index.html"><img class="image2" src="logo.png"></a>
+<nav>
+<a id="Home" href="index.html">Home</a> 
+<a id="Char" href="ABC.html">ABC</a> 
+<a id="Color" href="Colors.html">Colors</a> 
+<a id="Number" href="Number.html">Numbers</a> 
+<a id="Flower" href="Flower.html">Flowers</a> 
+<a id="Poems" href="Poems.html">Poems</a> 
+<a id="Comic" href="YourOwnStory.html">Drawing</a> 
+</nav>
+<div class="big">
+<div class="container">
+  <img src="lotus.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Lotus</div>
+	<p id="story">&#128522;The lotus is the most beautiful flower,whose petals open one by one,It is a magical flower for it is rooted in mud,surrounded by water and somehow finds a way to bloom and grow. A lotus is a survivor,it pushes its way through muddy waters and finds the sunlight.&#128525;</p>
+  </div>
+  <figcaption><b>Lotus</b></figcaption>
+</div>
+<div class="container">
+  <img src="rose.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Rose</div>
+	<p id="story">&#128521;The rose is a type of flowering shrub. Its name comes from the Latin word Rosa. The flowers of the rose grow in many different colors, from the well-known red rose or yellow roses and sometimes white or purple roses. Roses belong to the family of plants called Rosaceae.&#128519;</p>
+  </div>
+  <figcaption><b>Rose</b></figcaption>
+</div>
+<div class="container">
+  <img src="petunia.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Petunia</div>
+	<p id="story">&#128526;Petunia, genus of about 35 species of flowering plants in the nightshade family,native to South America.The common garden petunia is an ornamental plant whose showy trumpet-shaped flowers make it popular for summer flower beds and window boxes.&#128515;</p>
+  </div>
+  <figcaption><b>Petunia</b></figcaption>
+</div>
+<div class="container">
+  <img src="hibiscus.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Hibiscus</div>
+	<p id="story">&#128522;Hibiscus or rosemallow is a genus of plants with a flower of bright colors. It grows mostly in the tropics, but some species grow in cool climates. Hibiscus often become national/state flowers. The flower usually has five petals.&#128518;</p>
+  </div>
+  <figcaption><b>Hibiscus</b></figcaption>
+</div>
+<div class="container">
+  <img src="sunflower.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Sunflower</div>
+	<p id="story">&#128578;This is a story about sunflowers by Lola M. Schaefer. Some fun sunflower facts are that they bloom in late summer and fall. Sunflowers can grow to be three feet across and more than fifteen feet tall. Hundreds of seeds grow in the center of each sunflower.&#128563;</p>
+  </div>
+  <figcaption><b>Sunflower</b></figcaption>
+</div>
+<div class="container">
+  <img src="lilies.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Lilies</div>
+	<p id="story">&#128525;Lily flower is the symbol of purity. The flowers still represent purity and abundance in Greece, where brides wear crowns made of lilies and wheat. In most cultures in history, the lily represents purity, chastity and virtue.&#x1F618;</p>
+  </div>
+  <figcaption><b>Lilies</b></figcaption>
+</div>
+<div class="container">
+  <img src="marigold.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Marigold</div>
+	<p id="story">&#128526;Marigolds are plants that bear brightly colored blooms. They are popular in flower gardens. People also plant marigolds among vegetables. Their leaves have a strong scent that can drive away insect pests.&#128527;</p>
+  </div>
+  <figcaption><b>Lotus</b></figcaption>
+</div>
+<div class="container">
+  <img src="pansy.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Pansy</div>
+	<p id="story">&#127774;The garden pansy is a type of large-flowered hybrid plant cultivated as a garden flower. It is derived by hybridization from several species in the section Melanium of the genus Viola, particularly Viola tricolor.&#127773;</p>
+  </div>
+  <figcaption><b>Pansy</b></figcaption>
+</div>
+<div class="container">
+  <img src="tulips.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Tulips</div>
+	<p id="story">&#127793;tulips were imported into Holland in the sixteenth century. When Carolus Clusius wrote the first major book on tulips in 1592, they became so popular that his garden was raided and bulbs stolen on a regular basis. &#127801;</p>
+  </div>
+  <figcaption><b>Tulips</b></figcaption>
+</div>
+<div class="container">
+  <img src="dahlias.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Dahlias</div>
+	<p id="story">&#127803;The flower here is the dahlia and the maguey leaf is the leaf of the agave plant. The Aztecs also shared with Spanish botanists the Dahlia imperialis, which was known as the Hollow Pipe. Aztecs grew hundreds of varieties of dahlias and used them for medicinal purposes.&#127799;</p>
+  </div>
+  <figcaption><b>Dahlias</b></figcaption>
+</div>
+<div class="container">
+  <img src="pineapple.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Pineapple Lily</div>
+	<p id="story">&#127802;The Pineapple Lily - Eucomis, is a plant that deserves a place in any garden. The common name of these plants comes from the unusual topknot on the top of this tall spike of flowers. They really are quite spectacular.&#127800;</p>
+  </div>
+  <figcaption><b>Pineapple Lily</b></figcaption>
+</div>
+<div class="container">
+  <img src="gloriosa.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Gloriosa</div>
+	<p id="story">&#127808;The Gloriosa is a very beautiful and wonderfully unusual blossom with long curled petals that reflex 180 degrees. The Gloriosa plant is a climbing vine and a member of the lily family. Purchase vines with turgid foliage and one or two open flowers.&#127809;</p>
+  </div>
+  <figcaption><b>Gloriosa</b></figcaption>
+</div>
+<div class="container">
+  <img src="peonies.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Peonies</div>
+	<p id="story">&#127813;The peony is a flower very much praised in China where it is called “the most beautiful”. For the Chinese, it is symbol of beauty and prosperity. The next morning, all the flowers were in bloom as if it were spring time.&#127805;</p>
+  </div>
+  <figcaption><b>Peonies</b></figcaption>
+</div>
+<div class="container">
+  <img src="daffodils.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Daffodils</div>
+	<p id="story">&#127846;There is no harbinger of spring like a field or garden filled with bright yellow daffodils. But the world of the daffodil is much more than just its place in the march of the seasons. Leads to the current explosion of varieties from plant new colors, fragrances, and forms&#127848;</p>
+  </div>
+  <figcaption><b>Daffodils</b></figcaption>
+</div>
+<div class="container">
+  <img src="bougainvillea.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Bougainvillea</div>
+	<p id="story">&#128548;The bougainvillea is in bloom once again. The flower of the bougainvillea is tubular and white, surrounded by three leaves or bracts. The thorny bougainvillea can grow to be a woody vine and it can also be maintained in trays and troughs.&#128552;</p>
+  </div>
+  <figcaption><b>Bougainvillea</b></figcaption>
+</div>
+<div class="container">
+  <img src="zinnia.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Zinnia</div>
+	<p id="story">&#128525;The first zinnias were discovered in Mexico and brought to Europe by the Spaniards in the 1500's. Zinnia peruviana was an altogether ugly sight, a sparsely foliated, rangy plant which produced small flowers whose petals were often various muddy shades of yellow and orange.&#128521;</p>
+  </div>
+  <figcaption><b>Zinnia</b></figcaption>
+</div>
+</div>
+<footer>
+<h1 class="head">How Was Your Experience?</h1>
+<p class="desc">Please Share Your Feedback</p>
+<a class="submit" href="#"><b>To Amai Web</b></a>
+<a href="#" class="rightup"><b>CONTACT US</b></a>
+<a href="#" class="rightup" style="top:20%;line-height:3;"><b>ABOUT US</b></a>
+<p class="right"><b>FOLLOW US</b></p>
+<img class="footicon" src="logo.png">
+<a href="#"><img class="follow"	 src="twitter.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow" style="left:85%;" src="insta.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:90%;" src="facebook.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:95%;" src="google.png" height="7%" width="1.5%"></a>
+<p class="line">_________________________</p>
+<p class="line" style="left:70%;">_________________________</p>
+</footer>
+</body>
+</html>

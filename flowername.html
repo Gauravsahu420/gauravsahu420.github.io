@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Copse' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="look.css">
+<style>
+.big{
+	position:absolute;
+	top:50%;
+}
+.container {
+  position: relative;
+  width: 23%;
+  margin-top:3%;
+  left:-0.9%;
+  float:left;
+  margin-left:2%;
+}
+
+.imagetab{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius:12px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border:radius:50px;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border:radius:50px;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  right: 0;
+  transform: scale(1);
+}
+.container:hover .overlay2 {
+  width: 100%;
+  left: 0;
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  text-decoration:underline;
+  font-family:'Bubblegum Sans';
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+#story{
+	text-align: justify;
+	font-family: 'Chivo';
+	font-size:20px;
+	padding:30px 10px 10px 10px;
+}
+figcaption{
+	font-family: 'Copse';
+	font-size: 22px;
+	text-align:center;
+	padding:3px;
+}
+footer{
+	top:200%;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<img style="margin-left:25%;" src="ff.png" height="13%" width="50%">
+</div>
+<header>
+</header>
+<a href="index.html"><img class="image2" src="logo.png"></a>
+<nav>
+<a id="Home" href="index.html">Home</a> 
+<a id="Char" href="ABC.html">ABC</a> 
+<a id="Color" href="Colors.html">Colors</a> 
+<a id="Number" href="Number.html">Numbers</a> 
+<a id="Flower" href="Flower.html">Flowers</a> 
+<a id="Poems" href="Poems.html">Poems</a> 
+<a id="Comic" href="YourOwnStory.html">Drawing</a> 
+</nav>
+<div class="big">
+<div class="container">
+  <img src="lilies.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Lily</div>
+	<p id="story">&#128522;The lily is a symbol of purity and refined beauty. The name Lily can also be short for Elizabeth, Lillian, Liliana or Lilith.&#128525;</p>
+  </div>
+  <figcaption><b>Lily</b></figcaption>
+</div>
+<div class="container">
+  <img src="holly.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Holly</div>
+	<p id="story">&#128521;Holly is a symbol of goodwill and a much-loved traditional Christmas decoration. The name Holly is often given to girls born in winter.&#128519;</p>
+  </div>
+  <figcaption><b>Holly</b></figcaption>
+</div>
+<div class="container">
+  <img src="jasmine.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Jasmine</div>
+	<p id="story">&#128526;The jasmine flower is a symbol of love, modesty and grace. They're often worn by women in their hair in southern and southeast Asia..&#128515;</p>
+  </div>
+  <figcaption><b>Jasmine</b></figcaption>
+</div>
+<div class="container">
+  <img src="daisy.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Daisy</div>
+	<p id="story">&#128522;The daisy is a symbol of gentleness, innocence, and loyal love. Daisy means "day's eye". This refers to the way the flower opens and closes with the sun.&#128518;</p>
+  </div>
+  <figcaption><b>Daisy</b></figcaption>
+</div>
+<div class="container">
+  <img src="poppy.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Poppy</div>
+	<p id="story">&#128578;The name Poppy is closely associated with calm and peace. It's sometimes used as a shortened version of Penelope.&#128563;</p>
+  </div>
+  <figcaption><b>Lily</b></figcaption>
+</div>
+<div class="container">
+  <img src="rose.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Rose</div>
+	<p id="story">&#128525;Rose is a classic English girls' name, derived from the Latin rosa. Traditionally, while red roses are a symbol of love, romance and desire.&#x1F618;</p>
+  </div>
+  <figcaption><b>Rose</b></figcaption>
+</div>
+<div class="container">
+  <img src="alyssum.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Alyssum</div>
+	<p id="story">&#128526;The name Alyssa is thought to have been inspired by the alyssum flower. Alyssum symbolises worth beyond beauty.&#128527;</p>
+  </div>
+  <figcaption><b>Alyssum</b></figcaption>
+</div>
+<div class="container">
+  <img src="iris.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Iris</div>
+	<p id="story">&#127774;The iris is a symbol of faith and wisdom. In Greek mythology, Iris was goddess of the rainbow. These days, it's a classic vintage name.&#127773;</p>
+  </div>
+  <figcaption><b>Iris</b></figcaption>
+</div>
+<div class="container">
+  <img src="violet.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay">
+    <div class="text">Violet</div>
+	<p id="story">&#127793;The violet is a symbol of modesty and simplicity. Viola and Violete are less common variations of the name Violet. &#127801;</p>
+  </div>
+  <figcaption><b>Violet</b></figcaption>
+</div>
+<div class="container">
+  <img src="ivy.jpg" alt="Avatar" class="imagetab">
+  <div class="overlay2">
+    <div class="text">Ivy</div>
+	<p id="story">&#127803;In ancient Greece, an Ivy wreath would be presented to newlyweds as a symbol of fertility.&#127799;</p>
+  </div>
+  <figcaption><b>Ivy</b></figcaption>
+</div>
+</div>
+<footer>
+<h1 class="head">How Was Your Experience?</h1>
+<p class="desc">Please Share Your Feedback</p>
+<a class="submit" href="#"><b>To Amai Web</b></a>
+<a href="#" class="rightup"><b>CONTACT US</b></a>
+<a href="#" class="rightup" style="top:20%;line-height:3;"><b>ABOUT US</b></a>
+<p class="right"><b>FOLLOW US</b></p>
+<img class="footicon" src="logo.png">
+<a href="#"><img class="follow"	 src="twitter.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow" style="left:85%;" src="insta.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:90%;" src="facebook.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:95%;" src="google.png" height="7%" width="1.5%"></a>
+<p class="line">_________________________</p>
+<p class="line" style="left:70%;">_________________________</p>
+</footer>
+</body>
+</html>

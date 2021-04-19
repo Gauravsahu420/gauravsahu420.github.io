@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="look.css">
+<style>
+.container {
+	position:absolute;
+	height:20%;
+	width:23%;
+	left:1%;	
+	top:65%;
+}
+.image {
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:12px;
+}
+.overlay {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  width:100%;
+  display:none;
+  transition:.5s ease;
+}
+.container:hover .image {
+  filter: blur(2px);
+}
+.container:hover .overlay {	
+  display:block;
+}
+.text {
+  position:absolute;
+  top:85%;
+  left:70%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+}
+.text a{
+	text-decoration:none;
+	color:black;
+	font-size:35px;
+	font-family:'Bevan';
+}
+.vl{
+	border-left:3px solid green;
+	height:300px;
+	position:absolute;
+	left:30.5%;
+	top:60%;
+}
+.vl2{
+	border-left:3px solid green;
+	height:300px;
+	position:absolute;
+	left:57.5%;
+	top:60%;
+}
+footer{
+	top:150%;
+}
+</style>
+</head>
+<body>
+<header>
+</header>
+<a href="index.html"><img class="image2" src="logo.png"></a>
+<nav>
+<a id="Home" href="index.html">Home</a> 
+<a id="Char" href="ABC.html">ABC</a> 
+<a id="Color" href="Colors.html">Colors</a> 
+<a id="Number" href="Number.html">Numbers</a> 
+<a id="Flower" href="Flower.html">Flowers</a> 
+<a id="Poems" href="Poems.html">Poems</a> 
+<a id="Comic" href="YourOwnStory.html">Drawing</a> 
+</nav>
+<div class="container">
+<img src="tab.jpg" alt="summer_flowers" class="image">
+<div class="overlay">
+<div class="text"><a href="marigold.html">Summer Flower</a></div>
+</div>
+</div>
+<div class="container" style="left:28%;">
+<img src="tab2.jpg" alt="summer_flowers" class="image">
+<div class="overlay">
+<div class="text"><a href="flowername.html">Meaning Of Flower Name</a></div>
+</div>
+</div>
+<div class="container" style="left:55%;">
+<img src="tab3.jpg" alt="summer_flowers" class="image">
+<div class="overlay">
+<div class="text"><a href="winter.html">Winter Flower</a></div>
+</div>
+</div>
+<div class="vl"></div>
+<div class="vl2"></div>
+<footer>
+<h1 class="head">How Was Your Experience?</h1>
+<p class="desc">Please Share Your Feedback</p>
+<a class="submit" href="#"><b>To Amai Web</b></a>
+<a href="#" class="rightup"><b>CONTACT US</b></a>
+<a href="#" class="rightup" style="top:20%;line-height:3;"><b>ABOUT US</b></a>
+<p class="right"><b>FOLLOW US</b></p>
+<img class="footicon" src="logo.png">
+<a href="#"><img class="follow"	 src="twitter.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow" style="left:85%;" src="insta.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:90%;" src="facebook.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:95%;" src="google.png" height="7%" width="1.5%"></a>
+<p class="line">_________________________</p>
+<p class="line" style="left:70%;">_________________________</p>
+</footer>
+</body>
+</html>

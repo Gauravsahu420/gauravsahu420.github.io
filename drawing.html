@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.content1{
+	height:70px;
+	width:70px;
+	background-color:yellow;
+	border-radius:50%;
+	position:absolute;
+	top:5%;
+	left:5%;
+	cursor:pointer;
+}
+.content1 img{
+	height:80%;
+	width:80%;
+	margin-top:2px;
+	position:relative;
+	left:10%;
+	right:10%;
+}
+figcaption{
+	color:green;
+	text-align:center;
+	position:absolute;
+	top:100%;
+	left:-10%;
+	font-size:20px;
+}
+.dropdown{
+	position:absolute;
+	left:10%;
+	top:7%;
+	display:none;
+}
+#undercontent{
+	height:50px;
+	width:50px;
+	background-color:yellow;
+	border-radius:50%;
+	float:left;
+}
+#undercontent img{
+	height:80%;
+	width:80%;
+	margin-top:2px;
+	position:relative;
+	left:10%;
+	right:10%;
+}
+.undermenu:hover .dropdown{
+	display:block;
+}
+#undercontent:hover{
+	transform: scale(1.2); 
+	background-color:red;
+}
+.content1:hover{
+	background-color:blue;
+}
+</style>
+</head>
+<body>
+<div class="undermenu">
+<div class="content1">
+<img src="rock.png">
+<figcaption><b>Mountain</b></figcaption>
+</div>
+<div class="dropdown">
+<div id="undercontent">
+	<a href="#"><img src="rock.png"></a>
+</div>
+<div id="undercontent">
+	<a href="#"><img src="rock.png"></a>
+</div>
+<div id="undercontent">
+	<a href="#"><img src="rock.png"></a>
+</div>
+<div id="undercontent">
+	<a href="#"><img src="rock.png"></a>
+</div>
+<div id="undercontent">
+	<a href="#"><img src="rock.png"></a>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,302 @@
+body{
+	margin:0%;
+}
+header{
+	height:48%;
+	width:100%;
+	top:0%;
+	position:absolute;
+	background-color:#70e8ff;
+}
+@media only screen and (min-width: 411px) and (max-width: 731px) {
+	body {
+	  background-color: lightgreen;
+	}
+	header{
+		height: 25%;
+	}
+	.image{
+		margin-top: 10%;
+		margin-left: 12%;
+		height: 15%;
+		width: 60%;
+	}
+	.image2{
+		/* margin-top: 0%;
+		margin-left: 10%; */
+		margin-top: -20%;
+		height: 15%;
+		width: 25%;
+	}
+	nav{
+		margin-top: -40%;
+		word-spacing:-4px;
+		display: none;
+	}
+	#media{
+		display: block;
+		position: absolute;
+		left: 0%;
+		top:47.5%;
+	}
+	.cloud1, .midcloud, .rightcloud{
+		display: none;
+	}
+	.text{
+		font-size: 2px;
+	}	
+}	
+#media{
+	position: absolute;
+	
+	display: inline-block;
+}
+#media li{
+	list-style-type: none;
+	text-align: center;
+	border-radius: 0px;
+	float: left;
+	position: relative;
+	left: 1%;
+}
+#media li:hover{
+	background-color: white;
+	color: grey;
+}
+#media li a {
+	color: black;
+	font-size: 15px;
+	padding: 1px 5px;
+}
+.image{
+	position:absolute;
+	top:0%;
+	left:20%;
+}
+.image2{
+	position:absolute;
+	top:18%;
+	left:2%;
+}
+.image2:hover{
+	transform:scale(1.1);
+}
+nav{
+	position:absolute;
+	top:45%;
+	left:19%;
+	word-spacing:-4px;
+}
+nav a{
+	text-decoration:none;
+	padding:8px 25px;
+	border-radius:10px 10px 0px 0px;
+	font-size:25px;
+	color:white;
+	font-family:'Alegreya SC';
+}
+#Home:hover{
+	background-color:white;
+	color:black;
+	border-bottom:5px solid black;
+}
+#Char:hover{
+	background-color:white;
+	color:black;
+	border-bottom:5px solid black;
+}
+#Color:hover{
+	background-color:white;
+	color:black;
+	border-bottom:5px solid black;
+}
+#Number:hover{
+	background-color:white;
+	color:black;
+	border-bottom:5px solid black;
+}
+#Flower:hover{
+	background-color:white;
+	color:black;
+	border-bottom:5px solid black;
+}
+#Poems:hover{
+	background-color:white;
+	color:black;
+	border-bottom:5px solid black;
+}
+#Comic:hover{
+	background-color:white;
+	color:black;
+	border-bottom:5px solid black;
+}
+#Home{
+	background-color:#8f8fff;
+	border-radius:10px 10px 0px 10px;
+}
+#Char{
+	background-color:red;
+}
+#Color{
+	background-color:orange;}
+#Number{
+	background-color:#008B8B;
+}
+#Flower{
+	background-color:#7CFC00;
+}
+#Poems{
+	background-color:#ff3385;
+}
+#Comic{
+	background-color:#800080;
+	border-radius:10px 10px 10px 0px;
+}
+footer{
+	height:45%;
+	width:100%;
+	position:absolute;
+	top:180%;
+	border-top:2px solid black;
+	background-color:skyblue;
+}
+.head{
+	font-family:'Cutive';
+	text-align:center;
+	font-size:40px;
+}
+.desc{
+	font-size:25px;
+	text-align:center;
+	margin-top:3%;
+	font-family:'Alegreya Sans SC';
+}
+.submit{
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	font-size:25px;
+	padding:12px 20px;
+	font-family:'Alegreya Sans SC';
+	border-radius:5px;
+	position:absolute;
+	top:62%;
+	left:44%;
+}
+.submit:hover{
+	background-color:white;
+	color:black;
+	padding:8px 15px;
+	border:5px solid black;
+}
+.rightup{
+	font-family:'Carrois Gothic SC';
+	position:absolute;
+	left:80%;
+	top:10%;
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+}
+.rightup:hover{
+	color:white;
+	text-decoration:underline;
+}
+.right{
+	position:absolute;
+	left:80%;
+	top:50%;
+	font-size:20px;
+	font-family:'Chonburi';
+}
+.footicon{
+	position:absolute;
+	top:12%;
+	left:2%;
+	background-color:white;
+	border-radius:50%;
+	padding:10px;
+}
+.follow{
+	position:absolute;
+	top:75%;
+	background-color:white;
+	border-radius:50%;
+	padding:13px;
+	left:80%;
+}
+.follow:hover{
+	border:1px solid black;
+	transform:scale(1.2);
+}
+.line{
+	position:absolute;
+	transform:rotate(-90deg);
+	left:15%;
+	top:45%;
+}
+.cloud1{
+	position:absolute;
+	width:25%;
+	left:2%;
+	top:70%;
+	transform: rotate(-10deg);
+}
+.cloud{
+	width:100%;
+	height:auto;
+}
+.cloud1 a{
+	text-decoration:none;
+	font-size:45px;
+	font-family: 'Rye';
+	color:black;
+}
+.text{
+	position:absolute;
+	top:30%;
+	left:40%;
+}
+.text:hover{
+	transform:scale(1.1);
+}
+.midtext:hover{
+	transform:scale(1.1);
+}
+.rightext:hover{
+	transform:scale(1.1);
+}
+.midcloud{
+	position:absolute;
+	width:45%;
+	left:18%;
+	top:98%;
+}
+.midcloud a{
+	text-decoration:none;
+	font-size:45px;
+	font-family: 'Rye';
+	color:black;
+}
+.midtext{
+	position:absolute;
+	top:35%;
+	left:30%;
+}
+.rightcloud{
+	position:absolute;
+	width:35%;
+	left:55%;
+	top:50%;
+}
+.rightcloud a{
+	text-decoration:none;
+	font-size:45px;
+	font-family: 'Rye';
+	color:black;
+}
+.rightext{
+	position:absolute;
+	top:35%;
+	left:30%;
+}

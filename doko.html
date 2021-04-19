@@ -1,0 +1,679 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="look.css">
+<script>
+$(document).ready(function()
+{
+	$('#A').click(function()
+	{
+		$("#grasses").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#B').click(function()
+	{
+		$("#house").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#C').click(function()
+	{
+		$("#girl").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#D').click(function()
+	{
+		$("#lake").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#E').click(function()
+	{
+		$("#frog").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#F').click(function()
+	{
+		$("#tree").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#G').click(function()
+	{
+		$("#abirds").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#H').click(function()
+	{
+		$("#sun").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#I').click(function()
+	{
+		$("#sunflowers").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#J').click(function()
+	{
+		$("#butterfly").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#K').click(function()
+	{
+		$("#swan").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#L').click(function()
+	{
+		$("#babyflowers").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#M').click(function()
+	{
+		$("#moon").css({"visibility":"visible"});
+	});
+});
+$(document).ready(function()
+{
+	$('#N').click(function()
+	{
+		$("#mountain").css({"visibility":"visible"});
+	});
+});
+</script>
+<style>
+.dropdown{
+	transition:0.3s;
+	position:absolute;
+	left:-9%;
+	top:53%;
+	display:inline-block;
+}
+.dropbutton{
+	cursor:pointer;
+	border:none;
+	border-bottom:1px solid black;
+	padding:10px 90px 10px 20px;	
+	font-size:20px;
+	font-family:Berkshire Swash;
+	border-radius:0 12px 0 0;
+}
+.dropbutton:hover{
+	border-radius:0 12px 0 0;
+	background-color:red;
+}
+.dropcontent{
+	display:none;
+}
+.dropdown:hover .dropcontent{
+	display:block;
+}
+.dropdown:hover{
+	left:0%;
+}
+.dropcontent button{
+	position:relative;
+	right:0%;
+	cursor:pointer;
+	border:none;
+	display:block;
+	border-bottom:1px solid black;
+	padding:10px 32px;	
+	font-size:20px;
+}
+.show:hover{
+	background-color:yellow;
+}
+#mountain{
+	margin-top:70px;
+	visibility:hidden;
+}
+#grasses{
+	margin-top:-70px;
+	visibility:hidden;
+}
+#b{
+	margin-top:-70px;
+}
+#c{
+	margin-top:-70px;
+}
+#d{
+	margin-top:-70px;
+}
+#e{
+	margin-top:-70px;
+}
+#f{
+	margin-top:-70px;
+}
+#g{
+	margin-top:-70px;
+}
+#h{
+	margin-top:-70px;
+}
+#i{
+	margin-top:-70px;
+}
+#j{
+	margin-top:-70px;
+}
+#k{
+	margin-top:-105px;
+}
+#house{
+	margin-left:380px;
+	margin-top:-500px;
+	visibility:hidden;
+}
+#girl{
+	margin-left:250px;
+	margin-top:-160px;
+	visibility:hidden;
+}
+#lake{
+	margin-left:700px;
+	margin-top:-200px;
+	visibility:hidden;
+}
+#frog{
+	margin-left:1000px;
+	margin-top:-200px;
+	visibility:hidden;
+}
+#tree{
+	margin-top:-400px;
+	visibility:hidden;
+}
+#abirds{
+	margin-top:-350px;
+	margin-left:450px;
+	visibility:hidden;
+}
+#sun{
+	margin-left:1100px;
+	margin-top:-100px;
+	visibility:hidden;
+}
+#sunflowers{
+	margin-top:150px;
+	margin-left:1100px;
+	visibility:hidden;
+}
+#butterfly{
+	margin-top:-120px;
+	margin-left:1100px;
+	visibility:hidden;
+}
+#swan{
+	margin-top:-200px;
+	margin-left:800px;
+	visibility:hidden;
+}
+#babyflowers{
+	margin-top:150px;
+	margin-left:550px;
+	visibility:hidden;
+}
+#moon{
+	margin-top:-520px;
+	margin-left:180px;
+	visibility:hidden;
+}
+#container{
+	height:80%;
+	width:100%;
+	border-top:5px solid black;
+	position:absolute;
+	top:55%;
+}
+.cs:hover{
+	margin-left:-0.2%;
+	transition:width 2s;
+}
+#E:hover{
+	margin-left:100%;;
+}
+footer{
+	top:220%;
+}
+</style>
+</head>
+<body>
+<header>
+</header>
+<img class="image" src="kids.png" height="45%" width="60%">
+<a href="index.html"><img class="image2" src="logo.png"></a>
+<nav>
+<a id="Home" href="index.html">Home</a> 
+<a id="Char" href="ABC.html">ABC</a> 
+<a id="Color" href="Colors.html">Colors</a> 
+<a id="Number" href="Number.html">Numbers</a> 
+<a id="Flower" href="Flower.html">Flowers</a> 
+<a id="Poems" href="Poems.html">Poems</a> 
+<a id="Comic" href="YourOwnStory.html">Drawing</a> 
+</nav>
+<div id="container">
+<div id="mountain">
+<img src="mid.png" style="margin-left:100px;" height="200px" width="400px">
+<img src="rock.png" style="margin-left:-520px;" height="200px" width="400px">
+<img src="rock.png" style="margin-left:-100px;" height="200px" width="400px">
+</div>
+<div id="grasses">
+<div id="a">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="b">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="c">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="d">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="e">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="f">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="g">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="h">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="i">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="j">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+<div id="k">
+<img src="grasses.png" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="100px">
+<img src="grasses.png" style="margin-left:-10px;" height="100px" width="30px">
+</div>
+</div>
+<div id="house">
+<img src="house.png" height="300px" width="300px">
+</div>
+<div id="girl">
+<img src="girl.png" height="200px" width="100px">
+</div>
+<div id="lake">
+<img src="lake.png" height="300px" width="600px">
+</div>
+<div id="frog">
+<img src="frog.png" height="100px" width="100px">
+</div>
+<div id="tree">
+<img src="tree.png" height="300px" width="200px">
+</div>
+<div id="abirds">
+<img src="abirds.png" height="100px" width="100px">
+</div>
+<div id="sun">
+<img src="sun.png" height="100px" width="100px">
+</div>
+<div id="sunflowers">
+<img src="sunflowers.png" height="100px" width="100px">
+</div>
+<div id="butterfly">
+<img src="butterfly.png" height="100px" width="100px">
+</div>
+<div id="swan">
+<img src="swan.png" height="100px" width="150px">
+</div>
+<div id="babyflowers">
+<img src="babyflowers.png" height="100px" width="250px">
+</div>
+<div id="moon">
+<img src="moon.png" height="80px" width="80px">
+</div>
+</div>
+<div class="dropdown"style="top:60%;">
+<button class="dropbutton" id="A">Ground<img src="grasses.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+<div class="dropdown" style="top:70%;">
+<button class="dropbutton" id="B">House<img src="house.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>  
+<div class="dropdown" style="top:80%;">
+<button class="dropbutton" id="C">Peoples<img src="girl.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:90%;">
+<button class="dropbutton" id="D">Lake<img src="lake.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+<div class="dropdown" style="top:100%;">
+<button class="dropbutton" id="E">Frog<img src="frog.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+<div class="dropdown" style="top:110%;">
+<button class="dropbutton" id="F">Tree<img src="tree.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:120%;">
+<button class="dropbutton" id="C">Birds<img src="abirds.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:130%;">
+<button class="dropbutton" id="G">Peoples<img src="girl.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:140%;">
+<button class="dropbutton" id="H">Sky<img src="sun.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:150%;">
+<button class="dropbutton" id="I">Flowers<img src="sunflowers.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:160%;">
+<button class="dropbutton" id="J">Insects<img src="butterfly.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+<div class="dropdown" style="top:170%;">
+<button class="dropbutton" id="K">Birds<img src="swan.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:180%;">
+<button class="dropbutton" id="L">Flowers<img src="babyflowers.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+<div class="dropdown" style="top:190%;">
+<button class="dropbutton" id="M">Sky<img src="moon.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+
+<div class="dropdown" style="top:200%;">
+<button class="dropbutton" id="N">Mountains<img src="rock.png" style="height:20px;width:20px;position:absolute;right:10%;"></button>
+<div class="dropcontent">
+<button class="show">Mountain 1</button>
+<button class="show">Mountain 2</button>
+<button class="show">Mountain 3</button>
+<button class="show" style="border-radius:0 0 12px 0;">Mountain 4</button>
+</div> 
+</div>
+<footer>
+<h1 class="head">How Was Your Experience?</h1>
+<p class="desc">Please Share Your Feedback</p>
+<a class="submit" href="#"><b>To Amai Web</a>
+<a href="#" class="rightup"><b>CONTACT US</a>
+<a href="#" class="rightup" style="top:20%;line-height:3;"><b>ABOUT US</a>
+<p class="right"><b>FOLLOW US</p>
+<img class="footicon" src="logo.png">
+<a href="#"><img class="follow"	 src="twitter.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow" style="left:85%;" src="insta.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:90%;" src="facebook.png" height="7%" width="1.5%"></a>
+<a href="#"><img class="follow"	style="left:95%;" src="google.png" height="7%" width="1.5%"></a>
+<p class="line">_________________________</p>
+<p class="line" style="left:70%;">_________________________</p>
+</footer> 
+</body>
+</html>
